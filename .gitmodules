@@ -1,0 +1,9 @@
+[submodule "distance_controller"]
+	path = distance_controller
+	url = https://github.com/Andy-Leo10/distance_controller.git
+[submodule "turn_controller"]
+	path = turn_controller
+	url = https://github.com/Andy-Leo10/turn_controller.git
+[submodule "pid_maze_solver"]
+	path = pid_maze_solver
+	url = https://github.com/Andy-Leo10/pid_maze_solver.git
