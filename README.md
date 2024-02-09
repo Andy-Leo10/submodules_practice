@@ -9,10 +9,11 @@ To update with the content all the submodules use inside root:
     git submodule init
     git submodule update
 
-When changes were made to a submodule do this
+When changes were made to a submodule do this setup first:
 
     git checkout main
-    git push origin main
+
+Then inside any Repo use it as usual
 
 ---
 
@@ -20,3 +21,7 @@ Then for new updates use:
 
     git submodule update --remote
 
+
+For manual push use:
+
+    git push origin main
